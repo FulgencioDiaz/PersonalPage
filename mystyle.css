@@ -1,0 +1,145 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body { 
+    background-image: url("52894.jpeg");
+ }
+
+header{
+    background-color: rgba(1, 0, 0, 0.844);
+    display: flex;
+    padding:  .3em 3em;
+    justify-content: space-around;
+    align-items: center;
+    border: solid yellow;
+    width: 100%;
+    height: auto;
+}
+
+
+
+header > * {
+    
+   
+}
+
+#nombre{
+    color: rgb(255, 251, 16);
+    font-family: fantasy;
+    font-size: 40px;
+}
+
+
+header nav ul {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    line-height: 3;
+    width: 100px;
+    height: auto;
+    justify-content: flex-end;
+  
+    
+}
+
+header nav a {
+    text-decoration: none;
+    margin: 0 7px;
+    color:rgba(250, 235, 215, 0.787);
+
+}
+ header nav a:hover {
+    color:rgb(255, 251, 16);
+    text-decoration: underline;
+     }
+   
+ 
+ #background-img {
+    width:100%;
+    height:auto;
+}
+#imagen-bio{ 
+   width: 380px;
+   border: solid whitesmoke;
+   margin: 20px;
+
+}
+
+#texto-bio {
+    border: solid whitesmoke;
+    background-color:  rgba(1, 0, 0, 0.844) ;
+    color: whitesmoke;
+    width: 100%;
+    height: auto;
+    margin: 20px;
+}
+
+#biografiayfoto {
+    display: flex;
+    align-content: center;
+    margin: 20px;
+    justify-content:center
+
+}
+
+#formulario {
+    background-color: rgba(255, 251, 16, 0.836);
+    color: rgb(0, 0, 0);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-right: 210px;
+    margin-left: 210px;
+    margin-top: 20px;
+    padding: 40px;
+    align-items: center;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    margin: 19px;
+    border: solid rgba(255, 251, 16, 0.836) 20px;
+}

@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <h1 id="nombre">Fulgencio<br>
+            Díaz <br>
+            Puga
+        </h1>
+        <img id=foto-cara src="Captura de Pantalla 2022-09-11 a las 19.47.48.png">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="biografia.html">Biografía</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <fieldset id="formulario">
+        <h1> Contacta aquí: <address>funche_em@hotmail.com</address></h1>
+        <br>
+        <p>o</p>
+        <br>
+        <h2 id="encabezado-form">Deja aquí tus datos de contacto</h2>
+        <br>
+        <li>    
+        <label for="name">Nombre</label>
+            <input type="text" id="name" name="name"
+          autofocus placeholder="escribe aquí.." ></input>  
+        </li>
+        <br>
+        <li>
+        <label for="apellidos">Apellidos</label>
+        <input type="text" id="apellidos">
+        </li>
+        <br>
+        <li>
+        <label for="price">Salario estimado</label>
+        <br>
+        800$ <input type="range" name="salary">1800$ <br>
+        </li>
+        <br>
+        <li>
+        Tipo de trabajo que te gustaría contratar:
+            <ul>
+                <br>
+                <li>  
+                <label for="guion">Guion:</label>
+                <select name="guion id="guion">
+                <option value="Teatral">Teatral</option>
+                <option value="Cine">Cine</option>
+                <option value="Radio">Radio</option>
+                </select>
+                 </li>  
+                 <br>
+                 <li>  
+                 <label for="Actuación">Actuación de Stand-up:</label>
+                <select name="duracion" id="duracion" >
+                <option value="15min">15 minutos</option>
+                <option value="30min">30 minutos</option>
+                <option value="1h">1 hora</option>
+                </select>
+                </li> 
+            </ul>
+        </li>
+         
+        <br>
+<input id="borrar" type="reset" value="Borrar datos" >
+<input id="enviar" type="submit" value="Enviar datos"> 
+</fieldset>
+</form>
+ 
+
+</body>
+</html>
