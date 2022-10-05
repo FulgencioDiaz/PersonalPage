@@ -64,7 +64,7 @@ header{
 
 #nombre{
     color: rgb(255, 251, 16);
-    font-family:'Space Mono', monospace; ;
+    font-family:'Space Mono', monospace;
     font-size: 40px;
 
 }
@@ -79,6 +79,7 @@ header nav ul {
     width: 100px;
     height: auto;
     justify-content: flex-end;
+    margin-right: 10px;
   
     
 }
@@ -156,12 +157,13 @@ header nav a:hover {
         display: flex;
         flex-direction: column;
     }
-    
 }
 
 @media screen and (min-device-width: 481px) and (max-width: 600px) {
   
-        
+    #nombre {
+        margin-bottom: 10px;
+    }   
       
     header nav ul {
         justify-content: space-around;
@@ -171,9 +173,7 @@ header nav a:hover {
         display: flex;
         flex-direction: column;
     }
-    
 }
-
 @media screen and (min-device-width: 601px) and (max-width: 767px) {
     header nav ul {
         justify-content: space-around;
