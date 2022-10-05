@@ -24,8 +24,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+    
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
@@ -44,8 +46,10 @@ table {
 
 
 body { 
-    background-image: url("52894.jpeg");
+    background-image: url("52894.jpeg"); 
  }
+ 
+  
 
 header{
     background-color: rgba(1, 0, 0, 0.844);
@@ -58,18 +62,13 @@ header{
     height: auto;
 }
 
-
-
-header > * {
-    
-   
-}
-
 #nombre{
     color: rgb(255, 251, 16);
-    font-family: fantasy;
+    font-family:'Space Mono', monospace; ;
     font-size: 40px;
+
 }
+
 
 
 header nav ul {
@@ -90,16 +89,17 @@ header nav a {
     color:rgba(250, 235, 215, 0.787);
 
 }
- header nav a:hover {
+
+header nav a:hover {
     color:rgb(255, 251, 16);
     text-decoration: underline;
-     }
+}
    
- 
- #background-img {
+#background-img {
     width:100%;
     height:auto;
 }
+
 #imagen-bio{ 
    width: 380px;
    border: solid whitesmoke;
@@ -120,8 +120,7 @@ header nav a {
     display: flex;
     align-content: center;
     margin: 20px;
-    justify-content:center
-
+    justify-content:center;
 }
 
 #formulario {
@@ -130,16 +129,74 @@ header nav a {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
-    margin-right: 210px;
-    margin-left: 210px;
+    justify-content: center;
+    margin-left: 105px;
+    margin-right: 105px;
     margin-top: 20px;
     padding: 40px;
     align-items: center;
+    list-style:none;
 }
 
-video {
-    width: 100%;
-    height: auto;
-    margin: 19px;
+#video-mon {
     border: solid rgba(255, 251, 16, 0.836) 20px;
+   
+}
+
+#caja-videomon {
+    justify-content: center;
+    display: flex;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    header nav ul {
+        justify-content: space-around;
+    }
+    #biografiayfoto {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (min-device-width: 481px) and (max-width: 600px) {
+  
+        
+      
+    header nav ul {
+        justify-content: space-around;
+        
+    }
+    #biografiayfoto {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (min-device-width: 601px) and (max-width: 767px) {
+    header nav ul {
+        justify-content: space-around;
+        
+    }
+    #biografiayfoto {
+        display: flex;
+        flex-direction: column;
+    }
+   
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+    header nav ul {
+        justify-content: space-around;
+        
+    }
+   
+}
+
+@media screen and (min-device-width: 1024px) {
+    header nav ul {
+        justify-content: space-around;
+        
+    }
 }
